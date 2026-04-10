@@ -42,3 +42,5 @@ Allow: /
 
 User-agent: Bingbot
 Allow: /
+
+Sitemap: https://lacazel.fr/sitemap.xml
