@@ -85,7 +85,7 @@
     "google-analytics": "<script data-goatcounter=\"https://lacazel.goatcounter.com/count\"\n        async src=\"//gc.zgo.at/count.js\"></script>",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n\n# Bots d'entraînement - bloqués\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: Meta-ExternalAgent\nDisallow: /\n\n# Bots de recherche et de récupération - autorisés\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: Claude-SearchBot\nAllow: /\n\nUser-agent: Claude-User\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\n# Moteurs de recherche traditionnels\nUser-agent: Googlebot\nAllow: /\n\nUser-agent: Bingbot\nAllow: /\n\nSitemap: https://lacazel.fr/sitemap.xml",
     "site_lang": "fr",
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "gdpr": false,
     "global_header_custom": "<meta name=\"twitter:card\" content=\"summary_large_image\"/>\n<meta name=\"twitter:image:src\" content=\"https://lacazel.fr/assets/images/index-meta.jpg\">\n<meta property=\"og:image\" content=\"https://lacazel.fr/assets/images/index-meta.jpg\">\n<meta name=\"og:title\" content=\"Lacazel : Architecte d'intérieur en Aveyron\">"
   },
