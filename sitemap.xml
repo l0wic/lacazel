@@ -1,23 +1,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://lacazel.fr/studio.html</loc>
+		<loc>https://lacazel.fr/studio</loc>
 	</url>
 	<url>
-		<loc>https://lacazel.fr/projets.html</loc>
+		<loc>https://lacazel.fr/projets</loc>
 	</url>
 	<url>
-		<loc>https://lacazel.fr/puech.html</loc>
+		<loc>https://lacazel.fr/puech</loc>
 	</url>
 	<url>
-		<loc>https://lacazel.fr/accompagnements.html</loc>
+		<loc>https://lacazel.fr/accompagnements</loc>
 	</url>
 	<url>
-		<loc>https://lacazel.fr/vanille.html</loc>
+		<loc>https://lacazel.fr/vanille</loc>
 	</url>
 	<url>
-		<loc>https://lacazel.fr/contact.html</loc>
+		<loc>https://lacazel.fr/contact</loc>
 	</url>
 	<url>
-		<loc>https://lacazel.fr/index.html</loc>
+		<loc>https://lacazel.fr</loc>
 	</url>
 </urlset>
