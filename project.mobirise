@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page9.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -69,7 +69,7 @@
         "url": "https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 379,
+    "uniqCompNum": 380,
     "versionPublish": "6.1.4",
     "imageResize": false,
     "screenshot": "screenshot.png",
@@ -9842,15 +9842,15 @@
           },
           "_name": "article05",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"ctabar01\" group=\"Header\">\n  <mbr-parameters>\n    <header>Taille</header>\n    <input type=\"checkbox\" title=\"Pleine largeur\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Haut\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bas\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n    <header>Affichage</header>\n    <input type=\"checkbox\" title=\"Bouton secondaire (Formulaire)\" name=\"showSecondaryBtn\" checked>\n    <input type=\"checkbox\" title=\"Barre collante mobile\" name=\"showMobileSticky\" checked>\n    <header>Couleur</header>\n    <input type=\"color\" title=\"Fond\" name=\"bgColor\" value=\"#3a352b\" selected>\n    <input type=\"color\" title=\"Texte / bordures\" name=\"textColor\" value=\"#F8F5F4\" selected>\n    <input type=\"color\" title=\"Fond bouton principal\" name=\"btnColor\" value=\"#F8F5F4\" selected>\n    <input type=\"color\" title=\"Texte bouton principal\" name=\"btnTextColor\" value=\"#1E1B1D\" selected>\n  </mbr-parameters>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-12\">\n        <div class=\"cta-row-wrapper\">\n          <a class=\"btn btn-primary mbr-fonts-style display-7 mbr-section-btn cta-call\" data-app-selector=\".mbr-section-btn\" href=\"tel:0749171031\">Appeler le 07 49 17 10 31</a>\n          <a class=\"btn btn-outline-primary mbr-fonts-style display-7 mbr-section-btn cta-form\" data-app-selector=\".mbr-section-btn\" href=\"#lacazelContactForm\" mbr-if=\"showSecondaryBtn\">Demander un rendez-vous</a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"mobile-sticky-cta\" mbr-if=\"showMobileSticky\">\n    <a class=\"btn btn-primary mbr-section-btn cta-call\" href=\"tel:0749171031\">Appeler</a>\n    <a class=\"btn btn-outline-primary mbr-section-btn cta-form\" href=\"#lacazelContactForm\" mbr-if=\"showSecondaryBtn\">Formulaire</a>\n  </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"ctabar01\" group=\"Header\">\n  <mbr-parameters>\n    <header>Taille</header>\n    <input type=\"checkbox\" title=\"Pleine largeur\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Haut\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Bas\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n    <header>Affichage</header>\n    <input type=\"checkbox\" title=\"Bouton secondaire (Formulaire)\" name=\"showSecondaryBtn\" checked>\n    <input type=\"checkbox\" title=\"Barre collante mobile\" name=\"showMobileSticky\" checked>\n    <header>Couleur</header>\n    <input type=\"color\" title=\"Fond\" name=\"bgColor\" value=\"#3a352b\" selected>\n    <input type=\"color\" title=\"Texte / bordures\" name=\"textColor\" value=\"#F8F5F4\" selected>\n    <input type=\"color\" title=\"Fond bouton principal\" name=\"btnColor\" value=\"#F8F5F4\" selected>\n    <input type=\"color\" title=\"Texte bouton principal\" name=\"btnTextColor\" value=\"#1E1B1D\" selected>\n  </mbr-parameters>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-12\">\n        <div class=\"cta-row-wrapper\">\n          <a class=\"btn btn-primary mbr-fonts-style display-7 mbr-section-btn cta-call\" data-app-selector=\".mbr-section-btn\" href=\"tel:0749171031\">Appeler le 07 49 17 10 31</a>\n          <a class=\"btn btn-outline-primary mbr-fonts-style display-7 mbr-section-btn cta-form\" data-app-selector=\".mbr-section-btn\" href=\"#lacazelContactForm\" mbr-if=\"showSecondaryBtn\">Prendre rendez-vous</a>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <div class=\"mobile-sticky-cta\" mbr-if=\"showMobileSticky\">\n    <a class=\"btn btn-primary mbr-section-btn cta-call\" href=\"tel:0749171031\">Appeler</a>\n    <a class=\"btn btn-outline-primary mbr-section-btn cta-form\" href=\"#lacazelContactForm\" mbr-if=\"showSecondaryBtn\">Prendre rendez-vous</a>\n  </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "vwxPx47dIM",
+          "_anchor": "article05-9u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "article05-9u"
+          "_params": {}
         },
         {
           "alias": false,
@@ -10301,6 +10301,99 @@
           "_JSplaceholders": [],
           "_cid": "vwxPx9qASw",
           "_anchor": "features03-a1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background": "@bgColor",
+            ".kicker": {
+              "color": "@headingColor",
+              "font-size": "0.8125rem",
+              "font-weight": "600",
+              "text-transform": "uppercase",
+              "letter-spacing": "0.05em",
+              "margin-bottom": "0.6rem"
+            },
+            ".mbr-section-title": {
+              "color": "@headingColor"
+            },
+            ".mbr-section-title i": {
+              "font-style": "italic"
+            },
+            ".mbr-text": {
+              "color": "@textColor"
+            },
+            ".big-link": {
+              "display": "block",
+              "font-size": "1.625rem",
+              "color": "@headingColor",
+              "text-decoration": "none",
+              "margin-bottom": "0.375rem"
+            },
+            ".big-link.small": {
+              "font-size": "1.1875rem",
+              "margin-bottom": "0"
+            },
+            ".zone": {
+              "font-size": "0.90625rem",
+              "color": "@textColor"
+            },
+            ".contact-form": {
+              "display": "grid",
+              "gap": "0.875rem"
+            },
+            ".field": {
+              "display": "grid",
+              "gap": "0.375rem"
+            },
+            ".field label": {
+              "font-size": "0.8125rem",
+              "font-weight": "600",
+              "color": "@textColor"
+            },
+            ".field input, .field select, .field textarea": {
+              "width": "100%",
+              "padding": "0.75rem 0.875rem",
+              "border": "1.5px solid @lineColor",
+              "background": "@fieldBg",
+              "color": "@headingColor",
+              "font-size": "0.9375rem"
+            },
+            ".field textarea": {
+              "min-height": "6rem",
+              "resize": "vertical"
+            },
+            ".field input:focus, .field select:focus, .field textarea:focus": {
+              "outline": "2px solid @headingColor",
+              "outline-offset": "1px"
+            },
+            ".form-note": {
+              "font-size": "0.8125rem",
+              "color": "@textColor",
+              "margin-top": "0.125rem"
+            },
+            ".form-success": {
+              "display": "none",
+              "background": "@fieldBg",
+              "border": "1px solid @lineColor",
+              "padding": "1.25rem",
+              "font-size": "0.9375rem",
+              "color": "@headingColor"
+            }
+          },
+          "_name": "features03",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"contact01\" id=\"contact\" group=\"Contact Form\">\n  <mbr-parameters>\n    <header>Taille</header>\n    <input type=\"checkbox\" title=\"Pleine largeur\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Haut\" name=\"paddingTop\" min=\"0\" max=\"14\" step=\"1\" value=\"6\">\n    <input type=\"range\" inline title=\"Bas\" name=\"paddingBottom\" min=\"0\" max=\"14\" step=\"1\" value=\"6\">\n    <header>Affichage</header>\n    <input type=\"checkbox\" title=\"Bloc informations\" name=\"showInfo\" checked>\n    <input type=\"checkbox\" title=\"Formulaire\" name=\"showForm\" checked>\n    <header>Couleur</header>\n    <input type=\"color\" title=\"Fond\" name=\"bgColor\" value=\"#f8f5f4\" selected>\n    <input type=\"color\" title=\"Texte\" name=\"textColor\" value=\"#635D59\" selected>\n    <input type=\"color\" title=\"Titre / accent\" name=\"headingColor\" value=\"#1E1B1D\" selected>\n    <input type=\"color\" title=\"Fond des champs\" name=\"fieldBg\" value=\"#FFFFFF\" selected>\n    <input type=\"color\" title=\"Bordures\" name=\"lineColor\" value=\"#E1DAD3\" selected>\n  </mbr-parameters>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row\" id=\"lacazelContactForm\">\n        <!-- Google Calendar Appointment Scheduling begin -->\n<iframe src=\"https://calendar.google.com/calendar/appointments/schedules/AcZssZ1CoOgDnqzimtMirgPHB0grrTek9V43vNR9cKgGjaZrqvV2mRLcJTlvVeoCy1x-oqoEjJcG0Gx-?gv=true\" style=\"border: 0\" width=\"100%\" height=\"600\" frameborder=\"0\"></iframe>\n<!-- end Google Calendar Appointment Scheduling -->\n    </div>\n  </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "features03-aj",
+          "_cid": "vxrhwCE62T",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
