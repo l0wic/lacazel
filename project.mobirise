@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page11.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -69,7 +69,7 @@
         "url": "https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 378,
+    "uniqCompNum": 379,
     "versionPublish": "6.1.4",
     "imageResize": false,
     "screenshot": "screenshot.png",
@@ -8416,7 +8416,7 @@
           },
           "_name": "article05",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header01\" group=\"Header\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Taille</header>\n    <input type=\"checkbox\" title=\"Plein écran\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Pleine largeur\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Haut\" name=\"paddingTop\" min=\"0\" max=\"14\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bas\" name=\"paddingBottom\" min=\"0\" max=\"14\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n    <header>Affichage</header>\n    <input type=\"checkbox\" title=\"Titre\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Texte\" name=\"showText\" checked>\n    <header>Couleur</header>\n    <input type=\"color\" title=\"Texte\" name=\"textColor\" value=\"#F8F5F4\" selected>\n    <header>Fond</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/hero-bg.jpg\">\n      <input type=\"color\" title=\"Couleur\" value=\"#3a352b\" selected>\n      <input type=\"video\" title=\"Vidéo\" value>\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Image de secours</header>\n    <input type=\"image\" title=\"Image de secours\" value=\"../_images/hero-bg.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Voile\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Couleur du voile\" name=\"overlayColor\" value=\"#1E1B1D\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacité\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.55\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-start\">\n      <div class=\"col-12 col-lg-8\">\n        <div class=\"text-wrapper\">\n          <h1 class=\"mbr-section-title mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Redonner tout son caractère à <i>votre maison en pierres</i></h1>\n          <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Architecte d'intérieur formée à l'École Boulle, j'accompagne vos projets de rénovation en Aveyron — de la première esquisse au chantier, avec garantie décennale.</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header01\" group=\"Header\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n  <mbr-parameters>\n    <header>Taille</header>\n    <input type=\"checkbox\" title=\"Plein écran\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Pleine largeur\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Haut\" name=\"paddingTop\" min=\"0\" max=\"14\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bas\" name=\"paddingBottom\" min=\"0\" max=\"14\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n    <header>Affichage</header>\n    <input type=\"checkbox\" title=\"Titre\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Texte\" name=\"showText\" checked>\n    <header>Couleur</header>\n    <input type=\"color\" title=\"Texte\" name=\"textColor\" value=\"#F8F5F4\" selected>\n    <header>Fond</header>\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Image\" value=\"../_images/hero-bg.jpg\">\n      <input type=\"color\" title=\"Couleur\" value=\"#3a352b\" selected>\n      <input type=\"video\" title=\"Vidéo\" value>\n    </fieldset>\n    <header condition=\"bg.type === 'video'\">Image de secours</header>\n    <input type=\"image\" title=\"Image de secours\" value=\"../_images/hero-bg.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n    <input type=\"checkbox\" title=\"Voile\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Couleur du voile\" name=\"overlayColor\" value=\"#1E1B1D\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacité\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.55\" condition=\"overlay && bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-start\">\n      <div class=\"col-12 col-lg-8\">\n        <div class=\"text-wrapper\">\n          <h1 class=\"mbr-section-title mbr-fonts-style mb-4\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Redonner tout son caractère à <i>votre maison en pierre</i></h1>\n          <p class=\"mbr-text mbr-fonts-style mb-0\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Architecte d'intérieur formée à l'École Boulle, j'accompagne vos projets de rénovation en Aveyron — de la première esquisse au chantier, avec garantie décennale.</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_anchor": "article05-93",
@@ -8952,6 +8952,99 @@
           ],
           "_anchor": "features03-8g",
           "_cid": "vwiWRFH7wr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background": "@bgColor",
+            ".kicker": {
+              "color": "@headingColor",
+              "font-size": "0.8125rem",
+              "font-weight": "600",
+              "text-transform": "uppercase",
+              "letter-spacing": "0.05em",
+              "margin-bottom": "0.6rem"
+            },
+            ".mbr-section-title": {
+              "color": "@headingColor"
+            },
+            ".mbr-section-title i": {
+              "font-style": "italic"
+            },
+            ".mbr-text": {
+              "color": "@textColor"
+            },
+            ".big-link": {
+              "display": "block",
+              "font-size": "1.625rem",
+              "color": "@headingColor",
+              "text-decoration": "none",
+              "margin-bottom": "0.375rem"
+            },
+            ".big-link.small": {
+              "font-size": "1.1875rem",
+              "margin-bottom": "0"
+            },
+            ".zone": {
+              "font-size": "0.90625rem",
+              "color": "@textColor"
+            },
+            ".contact-form": {
+              "display": "grid",
+              "gap": "0.875rem"
+            },
+            ".field": {
+              "display": "grid",
+              "gap": "0.375rem"
+            },
+            ".field label": {
+              "font-size": "0.8125rem",
+              "font-weight": "600",
+              "color": "@textColor"
+            },
+            ".field input, .field select, .field textarea": {
+              "width": "100%",
+              "padding": "0.75rem 0.875rem",
+              "border": "1.5px solid @lineColor",
+              "background": "@fieldBg",
+              "color": "@headingColor",
+              "font-size": "0.9375rem"
+            },
+            ".field textarea": {
+              "min-height": "6rem",
+              "resize": "vertical"
+            },
+            ".field input:focus, .field select:focus, .field textarea:focus": {
+              "outline": "2px solid @headingColor",
+              "outline-offset": "1px"
+            },
+            ".form-note": {
+              "font-size": "0.8125rem",
+              "color": "@textColor",
+              "margin-top": "0.125rem"
+            },
+            ".form-success": {
+              "display": "none",
+              "background": "@fieldBg",
+              "border": "1px solid @lineColor",
+              "padding": "1.25rem",
+              "font-size": "0.9375rem",
+              "color": "@headingColor"
+            }
+          },
+          "_name": "features03",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"contact01\" id=\"contact\" group=\"Contact Form\">\n  <mbr-parameters>\n    <header>Taille</header>\n    <input type=\"checkbox\" title=\"Pleine largeur\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Haut\" name=\"paddingTop\" min=\"0\" max=\"14\" step=\"1\" value=\"6\">\n    <input type=\"range\" inline title=\"Bas\" name=\"paddingBottom\" min=\"0\" max=\"14\" step=\"1\" value=\"6\">\n    <header>Affichage</header>\n    <input type=\"checkbox\" title=\"Bloc informations\" name=\"showInfo\" checked>\n    <input type=\"checkbox\" title=\"Formulaire\" name=\"showForm\" checked>\n    <header>Couleur</header>\n    <input type=\"color\" title=\"Fond\" name=\"bgColor\" value=\"#f8f5f4\" selected>\n    <input type=\"color\" title=\"Texte\" name=\"textColor\" value=\"#635D59\" selected>\n    <input type=\"color\" title=\"Titre / accent\" name=\"headingColor\" value=\"#1E1B1D\" selected>\n    <input type=\"color\" title=\"Fond des champs\" name=\"fieldBg\" value=\"#FFFFFF\" selected>\n    <input type=\"color\" title=\"Bordures\" name=\"lineColor\" value=\"#E1DAD3\" selected>\n  </mbr-parameters>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row\">\n      <div class=\"col-12 col-lg-5\" mbr-if=\"showInfo\">\n        <p class=\"kicker mbr-fonts-style\" data-app-selector=\".kicker\">Contact</p>\n        <h2 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-4\">Parlons de <i>votre</i> projet</h2>\n        <p class=\"mbr-text mbr-fonts-style mb-4\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Par téléphone, par e-mail, ou via le formulaire — je réponds personnellement à chaque demande.</p>\n        <a class=\"big-link mbr-fonts-style\" href=\"tel:0749171031\">07 49 17 10 31</a>\n        <a class=\"big-link small mbr-fonts-style\" href=\"mailto:contact@lacazel.fr\">contact@lacazel.fr</a>\n      </div>\n\n      <div class=\"col-12 col-lg-7\">\n       <!-- Google Calendar Appointment Scheduling begin -->\n<iframe src=\"https://calendar.google.com/calendar/appointments/schedules/AcZssZ1CoOgDnqzimtMirgPHB0grrTek9V43vNR9cKgGjaZrqvV2mRLcJTlvVeoCy1x-oqoEjJcG0Gx-?gv=true\" style=\"border: 0\" width=\"100%\" height=\"600\" frameborder=\"0\"></iframe>\n<!-- end Google Calendar Appointment Scheduling -->\n      </div>\n    </div>\n  </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_anchor": "features03-ai",
+          "_cid": "vxnMDrcScT",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -10203,17 +10296,15 @@
           },
           "_name": "features03",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"contact01\" id=\"contact\" group=\"Contact Form\">\n  <mbr-parameters>\n    <header>Taille</header>\n    <input type=\"checkbox\" title=\"Pleine largeur\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Haut\" name=\"paddingTop\" min=\"0\" max=\"14\" step=\"1\" value=\"6\">\n    <input type=\"range\" inline title=\"Bas\" name=\"paddingBottom\" min=\"0\" max=\"14\" step=\"1\" value=\"6\">\n    <header>Affichage</header>\n    <input type=\"checkbox\" title=\"Bloc informations\" name=\"showInfo\" checked>\n    <input type=\"checkbox\" title=\"Formulaire\" name=\"showForm\" checked>\n    <header>Couleur</header>\n    <input type=\"color\" title=\"Fond\" name=\"bgColor\" value=\"#f8f5f4\" selected>\n    <input type=\"color\" title=\"Texte\" name=\"textColor\" value=\"#635D59\" selected>\n    <input type=\"color\" title=\"Titre / accent\" name=\"headingColor\" value=\"#1E1B1D\" selected>\n    <input type=\"color\" title=\"Fond des champs\" name=\"fieldBg\" value=\"#FFFFFF\" selected>\n    <input type=\"color\" title=\"Bordures\" name=\"lineColor\" value=\"#E1DAD3\" selected>\n  </mbr-parameters>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row\">\n      <div class=\"col-12 col-lg-5\" mbr-if=\"showInfo\">\n        <p class=\"kicker mbr-fonts-style\" data-app-selector=\".kicker\">Contact</p>\n        <h2 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-4\">Parlons de <i>votre</i> projet</h2>\n        <p class=\"mbr-text mbr-fonts-style mb-4\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Par téléphone, par e-mail, ou via le formulaire — je réponds personnellement à chaque demande.</p>\n        <a class=\"big-link mbr-fonts-style\" href=\"tel:0749171031\">07 49 17 10 31</a>\n        <a class=\"big-link small mbr-fonts-style\" href=\"mailto:contact@lacazel.fr\">contact@lacazel.fr</a>\n      </div>\n\n      <div class=\"col-12 col-lg-7\" mbr-if=\"showForm\">\n        <form class=\"contact-form\" id=\"lacazelContactForm\">\n          <div class=\"field\">\n            <label for=\"lz-nom\">Nom et prénom</label>\n            <input id=\"lz-nom\" name=\"nom\" required>\n          </div>\n          <div class=\"field\">\n            <label for=\"lz-tel\">Téléphone</label>\n            <input id=\"lz-tel\" name=\"tel\" type=\"tel\" required>\n          </div>\n          <div class=\"field\">\n            <label for=\"lz-email\">E-mail</label>\n            <input id=\"lz-email\" name=\"email\" type=\"email\" required>\n          </div>\n          <div class=\"field\">\n            <label for=\"lz-projet\">Type de projet</label>\n            <select id=\"lz-projet\" name=\"projet\">\n              <option>Maison</option>\n              <option>Appartement</option>\n              <option>Résidence secondaire</option>\n              <option>Gîte ou location</option>\n              <option>Autre</option>\n            </select>\n          </div>\n          <div class=\"field\">\n            <label for=\"lz-message\">Votre projet en quelques mots</label>\n            <textarea id=\"lz-message\" name=\"message\"></textarea>\n          </div>\n          <button class=\"btn btn-secondary-outline\" type=\"submit\">Envoyer ma demande</button>\n          <p class=\"form-note mbr-fonts-style\">Réponse sous 48h ouvrées.</p>\n        </form>\n        <div class=\"form-success mbr-fonts-style\" id=\"lacazelFormSuccess\">Merci ! Votre demande a bien été transmise — je vous recontacte sous 48h.</div>\n      </div>\n    </div>\n  </div>\n</section>\n\n[JS_CODE_0]",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"contact01\" id=\"contact\" group=\"Contact Form\">\n  <mbr-parameters>\n    <header>Taille</header>\n    <input type=\"checkbox\" title=\"Pleine largeur\" name=\"fullWidth\">\n    <input type=\"range\" inline title=\"Haut\" name=\"paddingTop\" min=\"0\" max=\"14\" step=\"1\" value=\"6\">\n    <input type=\"range\" inline title=\"Bas\" name=\"paddingBottom\" min=\"0\" max=\"14\" step=\"1\" value=\"6\">\n    <header>Affichage</header>\n    <input type=\"checkbox\" title=\"Bloc informations\" name=\"showInfo\" checked>\n    <input type=\"checkbox\" title=\"Formulaire\" name=\"showForm\" checked>\n    <header>Couleur</header>\n    <input type=\"color\" title=\"Fond\" name=\"bgColor\" value=\"#f8f5f4\" selected>\n    <input type=\"color\" title=\"Texte\" name=\"textColor\" value=\"#635D59\" selected>\n    <input type=\"color\" title=\"Titre / accent\" name=\"headingColor\" value=\"#1E1B1D\" selected>\n    <input type=\"color\" title=\"Fond des champs\" name=\"fieldBg\" value=\"#FFFFFF\" selected>\n    <input type=\"color\" title=\"Bordures\" name=\"lineColor\" value=\"#E1DAD3\" selected>\n  </mbr-parameters>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row\">\n      <div class=\"col-12 col-lg-5\" mbr-if=\"showInfo\">\n        <p class=\"kicker mbr-fonts-style\" data-app-selector=\".kicker\">Contact</p>\n        <h2 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-4\">Parlons de <i>votre</i> projet</h2>\n        <p class=\"mbr-text mbr-fonts-style mb-4\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">Par téléphone, par e-mail, ou via le formulaire — je réponds personnellement à chaque demande.</p>\n        <a class=\"big-link mbr-fonts-style\" href=\"tel:0749171031\">07 49 17 10 31</a>\n        <a class=\"big-link small mbr-fonts-style\" href=\"mailto:contact@lacazel.fr\">contact@lacazel.fr</a>\n      </div>\n\n      <div class=\"col-12 col-lg-7\" mbr-if=\"showForm\">\n        <!-- Google Calendar Appointment Scheduling begin -->\n<iframe src=\"https://calendar.google.com/calendar/appointments/schedules/AcZssZ1CoOgDnqzimtMirgPHB0grrTek9V43vNR9cKgGjaZrqvV2mRLcJTlvVeoCy1x-oqoEjJcG0Gx-?gv=true\" style=\"border: 0\" width=\"100%\" height=\"600\" frameborder=\"0\"></iframe>\n<!-- end Google Calendar Appointment Scheduling -->\n      </div>\n    </div>\n  </div>\n</section>",
           "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script>\n  (function(){\n    var form = document.getElementById('lacazelContactForm');\n    if (!form) return;\n    form.addEventListener('submit', function(e){\n      e.preventDefault();\n      var f = e.target;\n      var subject = encodeURIComponent('Demande de contact — ' + f.projet.value);\n      var body = encodeURIComponent(\n        'Nom : ' + f.nom.value + '\\n' +\n        'Téléphone : ' + f.tel.value + '\\n' +\n        'E-mail : ' + f.email.value + '\\n' +\n        'Type de projet : ' + f.projet.value + '\\n\\n' +\n        f.message.value\n      );\n      window.location.href = 'mailto:contact@lacazel.fr?subject=' + subject + '&body=' + body;\n      f.style.display = 'none';\n      document.getElementById('lacazelFormSuccess').style.display = 'block';\n    });\n  })();\n</script>"
-          ],
+          "_JSplaceholders": [],
           "_cid": "vwxPx9qASw",
+          "_anchor": "features03-a1",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "features03-a1"
+          "_params": {}
         },
         {
           "alias": false,
